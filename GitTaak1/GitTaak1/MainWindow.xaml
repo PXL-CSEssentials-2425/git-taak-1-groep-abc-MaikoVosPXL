@@ -38,7 +38,8 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <TextBlock x:Name="colorCode" HorizontalAlignment="Center" Margin="0,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="174" FontSize="24" FontStyle="Italic"/>
+        <TextBlock x:Name="colorCode" HorizontalAlignment="Center" Margin="0,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="174" FontSize="24" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBlock x:Name="colorInfo" Margin="0,494,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="430" FontSize="22" FontStyle="Italic" HorizontalAlignment="Center" TextAlignment="Center"/>
 
     </Grid>
 </Window>

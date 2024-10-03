@@ -77,21 +77,25 @@ namespace GitTaak1
         private void Button_Click_Rood(object sender, RoutedEventArgs e)
         {
             colorCode.Text = "Rood: #FF0000";
+            colorInfo.Text = "Rood is de kleur van warmte";
         }
 
         private void Button_Click_Geel(object sender, RoutedEventArgs e)
         {
             colorCode.Text = "Geel: #FFFF00";
+            colorInfo.Text = "Geel is de kleur van levenslust";
         }
 
         private void Button_Click_Blauw(object sender, RoutedEventArgs e)
         {
             colorCode.Text = "Blauw: #0000FF";
+            colorInfo.Text = "Blauw is de kleur van intelligentie";
         }
 
         private void Button_Click_Groen(object sender, RoutedEventArgs e)
         {
             colorCode.Text = "Groen: #008000";
+            colorInfo.Text = "Groen is de kleur van genezing";
         }
 
     }
