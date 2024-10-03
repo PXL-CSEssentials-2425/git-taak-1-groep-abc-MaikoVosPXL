@@ -23,6 +23,55 @@ namespace GitTaak1
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Button_MouseEnter_Rood(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF0000"));
+
+        }
+
+        private void Button_MouseLeave_Rood(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+
+        }
+
+        private void Button_MouseEnter_Geel(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFF00"));
+
+        }
+
+        private void Button_MouseLeave_Geel(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+
+        }
+
+        private void Button_MouseEnter_Blauw(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#0000FF"));
+
+        }
+
+        private void Button_MouseLeave_Blauw(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+
+        }
+
+        private void Button_MouseEnter_Groen(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#008000"));
+
+        }
+
+        private void Button_MouseLeave_Groen(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
+
         }
     }
 }
