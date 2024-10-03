@@ -10,34 +10,35 @@
     <Grid Margin="0,0,0,-16">
         <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Height="63" Width="256" FontSize="30" FontStyle="Italic"/>
         <Image Source="/images/PXL.png" Margin="782,10,-6,449" />
-        <Button Margin="260,175,539,323" MouseEnter="Button_MouseEnter_Rood" MouseLeave="Button_MouseLeave_Rood">
+        <Button Margin="260,175,539,323" MouseEnter="Button_MouseEnter_Rood" MouseLeave="Button_MouseLeave_Rood" Click="Button_Click_Rood">
             <Button.Template>
                 <ControlTemplate>
                     <Image Source="/images/Rood.png" Margin="0,0,0,0" />
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="539,175,260,323" MouseEnter="Button_MouseEnter_Geel" MouseLeave="Button_MouseLeave_Geel">
+        <Button Margin="539,175,260,323" MouseEnter="Button_MouseEnter_Geel" MouseLeave="Button_MouseLeave_Geel" Click="Button_Click_Geel">
             <Button.Template>
                 <ControlTemplate>
                     <Image Source="/images/Geel.png" Margin="0,0,0,0" />
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="260,320,539,178" MouseEnter="Button_MouseEnter_Groen" MouseLeave="Button_MouseLeave_Groen">
+        <Button Margin="260,320,539,178" MouseEnter="Button_MouseEnter_Groen" MouseLeave="Button_MouseLeave_Groen" Click="Button_Click_Groen">
             <Button.Template>
                 <ControlTemplate>
                     <Image Source="/images/Groen.png" Margin="0,0,0,0" />
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="539,320,260,178" MouseEnter="Button_MouseEnter_Blauw" MouseLeave="Button_MouseLeave_Blauw">
+        <Button Margin="539,320,260,178" MouseEnter="Button_MouseEnter_Blauw" MouseLeave="Button_MouseLeave_Blauw" Click="Button_Click_Blauw">
             <Button.Template>
                 <ControlTemplate>
                     <Image Source="/images/Blauw.png" Margin="0,0,0,0" />
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <TextBlock x:Name="colorCode" HorizontalAlignment="Center" Margin="0,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="174" FontSize="24" FontStyle="Italic"/>
 
     </Grid>
 </Window>

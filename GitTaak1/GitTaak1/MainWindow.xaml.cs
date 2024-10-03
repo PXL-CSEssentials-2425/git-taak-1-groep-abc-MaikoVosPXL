@@ -73,5 +73,26 @@ namespace GitTaak1
             this.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D3D3D3"));
 
         }
+
+        private void Button_Click_Rood(object sender, RoutedEventArgs e)
+        {
+            colorCode.Text = "Rood: #FF0000";
+        }
+
+        private void Button_Click_Geel(object sender, RoutedEventArgs e)
+        {
+            colorCode.Text = "Geel: #FFFF00";
+        }
+
+        private void Button_Click_Blauw(object sender, RoutedEventArgs e)
+        {
+            colorCode.Text = "Blauw: #0000FF";
+        }
+
+        private void Button_Click_Groen(object sender, RoutedEventArgs e)
+        {
+            colorCode.Text = "Groen: #008000";
+        }
+
     }
 }
